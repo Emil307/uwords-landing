@@ -13,36 +13,16 @@ import { SEO } from "astro-seo";
 		<SEO
 			title="Uwords learn without many words"
 			description="Uwords - application for learning English based on your vocabulary"
-			openGraph={{
-				basic: {
-					title: "Uwords learn without many words",
-					type: "A type.",
-					image: "/uwords.svg",
-				}
-			}}
-			twitter={{
-				// creator: "@jonasmerlins1"
-			}}
 			extend={{
-				// extending the default link tags
 				link: [{ rel: "icon", href: "/uwords.svg" }],
-				// extending the default meta tags
-				// meta: [
-				// 	{
-				// 		name: "twitter:image",
-				// 		content: "https://user-images.githubusercontent.com/5182256/131216951-8f74f425-f775-463d-a11b-0e01ad9fce8d.png",
-				// 	},
-				// 	{ name: "twitter:title", content: "Tinker Tailor Soldier Spy" },
-				// 	{ name: "twitter:description", content: "Agent" },
-				// ],
 			}}
 		/>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content="Uwords - application for learning English based on your vocabulary" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/uwords.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+		<title>Uwords learn without many words</title>
 	</head>
 	<body>
 		<slot />
