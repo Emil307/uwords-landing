@@ -4,11 +4,39 @@ interface Props {
 }
 
 const { title } = Astro.props;
+import { SEO } from "astro-seo";
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
+		<SEO
+			title="Uwords learn without many words"
+			description="Uwords - application for learning English based on your vocabulary"
+			openGraph={{
+				basic: {
+					title: "Uwords learn without many words",
+					type: "A type.",
+					image: "/uwords.svg",
+				}
+			}}
+			twitter={{
+				// creator: "@jonasmerlins1"
+			}}
+			extend={{
+				// extending the default link tags
+				link: [{ rel: "icon", href: "/uwords.svg" }],
+				// extending the default meta tags
+				// meta: [
+				// 	{
+				// 		name: "twitter:image",
+				// 		content: "https://user-images.githubusercontent.com/5182256/131216951-8f74f425-f775-463d-a11b-0e01ad9fce8d.png",
+				// 	},
+				// 	{ name: "twitter:title", content: "Tinker Tailor Soldier Spy" },
+				// 	{ name: "twitter:description", content: "Agent" },
+				// ],
+			}}
+		/>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
