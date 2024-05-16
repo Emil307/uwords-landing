@@ -35,6 +35,19 @@ import { SEO } from "astro-seo";
 			white 60%
 		);
 	}
+	@font-face {
+		src: url('/fonts/Manrope-Semibold.ttf') format('truetype');
+		font-family: 'Monrope';
+		font-weight: 600;
+	}
+	@font-face {
+		src: url('/fonts/Manrope-Regular.ttf') format('truetype');
+		font-family: 'Monrope';
+		font-weight: 400;
+	}
+	body {
+		font-family: 'Monrope', 'Arial', 'sans-serif';
+	}
 	* {
 		padding: 0;
 		margin: 0;
