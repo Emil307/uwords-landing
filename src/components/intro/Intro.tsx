@@ -4,7 +4,6 @@ import {
   Offer,
   Title,
   Span,
-  Description,
 } from './styles';
 
 export const Intro: React.FC = () => {
