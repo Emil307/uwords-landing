@@ -1,17 +1,12 @@
 import React from 'react';
-import {
-  Container,
-  Offer,
-  Title,
-  Span,
-} from './styles';
+import styles from './styles.module.css';
 
 export const IntroSection: React.FC = () => {
   return (
-    <Container>
-      <Offer>
-        <Title>The first based on <Span>your vocabulary</Span> English learning platform</Title>
-      </Offer>
-    </Container>
+    <div className={styles.container}>
+      <div className={styles.offer}>
+        <h1 className={styles.title}>The first based on <span>your vocabulary</span> English learning platform</h1>
+      </div>
+    </div>
   )
 }

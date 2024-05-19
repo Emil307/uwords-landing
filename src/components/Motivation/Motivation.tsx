@@ -1,21 +1,15 @@
 import React from 'react';
-import {
-  Container,
-  Info,
-  Title,
-  Text,
-  Image,
-} from './styles';
 import iphone from '../../assets/images/iphone.png';
+import styles from './styles.module.css';
 
 export const Motivation: React.FC = () => {
   return (
-    <Container>
-      <Info>
-        <Title>Learn English faster by learn individual list of words</Title>
-        <Text>Record your random conversations and the app will choose the words for you</Text>
-      </Info>
-      <Image src={iphone.src} alt="record your voice for learn English" />
-    </Container>
+    <div className={styles.container}>
+      <div className={styles.info}>
+        <h2 className={styles.title}>Learn English faster by learn individual list of words</h2>
+        <p className={styles.text}>Record your random conversations and the app will choose the words for you</p>
+      </div>
+      <img className={styles.image} src={iphone.src} alt="record your voice for learn English" />
+    </div>
   )
 }

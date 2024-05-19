@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-export const ButtonStyles = styled.button`
+.button {
   font-family: Manrope;
   font-weight: 600;
   font-size: 16px;
@@ -10,9 +8,9 @@ export const ButtonStyles = styled.button`
   border-radius: 16px;
   background: var(--accent-gradient);
   transition: color .4s ease; 
-  
-  &:hover {
-    background: #00F1F5;
-    color: #fff;
-  }
-`;  
+}
+
+.button:hover {
+  background: #00F1F5;
+  color: #fff;
+}
