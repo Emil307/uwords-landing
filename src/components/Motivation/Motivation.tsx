@@ -6,7 +6,7 @@ import {
   Text,
   Image,
 } from './styles';
-import iphone from '../../assets/images/iphone.png';
+import iphone from '../../assets/images/opt.png';
 
 export const Motivation: React.FC = () => {
   return (
