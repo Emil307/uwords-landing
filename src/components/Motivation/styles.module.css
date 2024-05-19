@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-export const Container = styled.section`
+.container {
   position: relative;
   width: 100%;
   max-width: 800px;
@@ -12,31 +10,31 @@ export const Container = styled.section`
   background: var(--accent-gradient);
   overflow: hidden;
   margin-bottom: 100px;
-`;
+}
 
-export const Info = styled.div`
+.info {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 400px;
-`;
+}
 
-export const Title = styled.h2`
+.title {
   font-family: Manrope;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
-`;
+}
 
-export const Text = styled.p`
+.text {
   font-family: Manrope;
   font-weight: 400;
   font-size: 21px;
-`;
+}
 
-export const Image = styled.img`
+.image {
   position: absolute;
   bottom: -190px;
   right: -30px;
   width: 400px;
-`;
+}

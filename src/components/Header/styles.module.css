@@ -1,0 +1,20 @@
+.screen {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  height: 80px;
+  margin: 0 auto;  
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

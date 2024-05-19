@@ -1,20 +1,15 @@
 import React from 'react';
-import {
-  Screen,
-  Container,
-  Left,
-  Right,
-} from './styles';
+import styles from './styles.module.css';
 import { Button } from '../../UI';
 
 export const Header: React.FC = () => {
   return (
-    <Screen>
-      <Container>
-        <Left>
+    <div className={styles.screen}>
+      <div className={styles.container}>
+        <div>
           Uwords
-        </Left>
-        <Right>
+        </div>
+        <div className={styles.right}>
           <Button
             style={{
               height: "38px"
@@ -22,8 +17,8 @@ export const Header: React.FC = () => {
           >
             Start learning
           </Button>
-        </Right>
-      </Container>
-    </Screen>
+        </div>
+      </div>
+    </div>
   )
 }
