@@ -6,7 +6,7 @@ import {
   Span,
 } from './styles';
 
-export const Intro: React.FC = () => {
+export const IntroSection: React.FC = () => {
   return (
     <Container>
       <Offer>
