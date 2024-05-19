@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Container,
   Offer,
-  Info,
   Title,
   Span,
   Description,
@@ -13,13 +12,7 @@ export const Intro: React.FC = () => {
   return (
       <Container>
         <Offer>
-          <Info>
-            <Title>The first platform for learning English based on your vocabulary</Title>
-            <Description>Изучайте слова на основе вашего лексикона</Description>
-          </Info>
-          <Button>
-            Начать учить слова
-          </Button>
+          <Title>The first based on <Span>your vocabulary</Span> English learning platform</Title>
         </Offer>
       </Container>
   )

@@ -8,7 +8,7 @@ export const ButtonStyles = styled.button`
   padding: 0 20px;
   height: 54px;
   border-radius: 16px;
-  background: linear-gradient(70deg, #00fe83, #00f1f5);
+  background: var(--accent-gradient);
   transition: color .4s ease; 
   
   &:hover {
