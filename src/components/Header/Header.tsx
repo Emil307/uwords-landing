@@ -1,5 +1,4 @@
 import React from 'react';
-import Uwords from '../../../public/uwords.svg';
 import {
   Screen,
   Container,
