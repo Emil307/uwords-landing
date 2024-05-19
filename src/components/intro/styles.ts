@@ -16,7 +16,7 @@ export const Offer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 800px;
+  width: 840px;
   margin: 0 auto;
 `;
 
@@ -24,7 +24,7 @@ export const Title = styled.h1`
   text-align: center;
   font-family: Manrope;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 48px;
 `;
 
 export const Span = styled.span`

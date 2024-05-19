@@ -6,7 +6,6 @@ import {
   Span,
   Description,
 } from './styles';
-import { Button } from '../../UI';
 
 export const Intro: React.FC = () => {
   return (
