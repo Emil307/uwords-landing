@@ -1,11 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { Intro } from '../components/intro/Intro.tsx';
-import './style.css';
+import { Header } from '../components/Header';
+import { Intro } from '../components/Intro';
+import { Motivation } from '../components/Motivation';
 ---
 
 <Layout>
 	<main>
-		<Intro/>
+		<Header client:only />
+		<Intro client:only />
+		<Motivation client:only />
 	</main>
 </Layout>

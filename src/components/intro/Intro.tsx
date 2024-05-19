@@ -1,7 +1,18 @@
-import React from 'react'
+import React from 'react';
+import {
+  Container,
+  Offer,
+  Title,
+  Span,
+  Description,
+} from './styles';
 
-export const Intro = () => {
+export const Intro: React.FC = () => {
   return (
-    <div>Intro</div>
+      <Container>
+        <Offer>
+          <Title>The first based on <Span>your vocabulary</Span> English learning platform</Title>
+        </Offer>
+      </Container>
   )
 }
