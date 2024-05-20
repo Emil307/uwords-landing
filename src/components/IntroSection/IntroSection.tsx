@@ -5,7 +5,7 @@ export const IntroSection: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.offer}>
-        <h1 className={styles.title}>The first based on <span>your vocabulary</span> English learning platform</h1>
+        <h1 className={styles.title}>The first <span>vocabulary-based</span> English learning platform</h1>
       </div>
     </div>
   )
