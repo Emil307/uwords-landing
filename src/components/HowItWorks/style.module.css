@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  max-width: fit-content;
+  margin: 0 auto 100px;
+}
+
+.steps {
+  display: flex;
+  gap: 24px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;  
+  text-align: center;
+  width: 360px;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.first {
+  background-color: rgba(101, 92, 205, .1);
+  color: rgb(101, 92, 205);
+}
+
+.second {
+  background-color: rgba(255, 122, 0, .1);
+  color: rgb(255, 122, 0);
+}
+
+.third {
+  background-color: rgba(43, 152, 29, .1);
+  color: rgb(43, 152, 29);
+}
+
+.divider {
+  border-left: 1px solid rgba(116, 116, 128, 0.08);
+}

@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { Header } from '../components/Header';
 import { IntroSection } from '../components/IntroSection';
 import { Motivation } from '../components/Motivation';
+import { HowItWorks } from '../components/HowItWorks';
 import { FormSection } from 'components/FormSection';
 ---
 
@@ -11,6 +12,7 @@ import { FormSection } from 'components/FormSection';
 		<Header client:only />
 		<IntroSection client:only />
 		<Motivation client:only />
+		<HowItWorks client:only />
 		<FormSection client:only />
 	</main>
 </Layout>
