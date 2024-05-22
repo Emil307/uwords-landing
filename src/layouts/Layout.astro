@@ -29,6 +29,7 @@ import { SEO } from "astro-seo";
 		--accent-light: 224, 204, 250;
 		--accent-dark: 49, 10, 101;
 		--accent-gradient: linear-gradient(70deg, #00fe83, #00f1f5);
+		--border: rgba(0, 0, 0, 0.05);
 	}
 	@font-face {
 		src: url('/fonts/Manrope-Bold.woff2') format('woff2');
@@ -76,5 +77,12 @@ import { SEO } from "astro-seo";
 		font-family: 'Manrope';
 		font-weight: 400;
 		font-size: 21px;
+	}
+	input {
+		background: none;
+		border: none;
+	}
+	input:focus {
+		outline: none;
 	}
 </style>
