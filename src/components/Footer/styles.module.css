@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 20px 0;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.credits {
+  font-size: 16 px;
+  color: rgba(0, 0, 0, .5);
+}
