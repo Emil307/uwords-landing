@@ -5,10 +5,10 @@ export const Footer: React.FC = () => {
   const date = new Date().getFullYear();
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.content}>
         <p className={styles.credits}>© {date} Uwords</p>
       </div>
-    </div>
+    </section>
   )
 }
