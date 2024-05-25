@@ -45,6 +45,6 @@
   }
 
   .img {
-    width: calc(100% - 32px);
+    width: 100%;
   }
 }
