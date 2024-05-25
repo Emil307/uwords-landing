@@ -63,6 +63,11 @@
 }
 
 @media screen and (max-width: 998px) {
+  .container {
+    text-align: center;
+    gap: 40px;
+    padding: 0 15px;
+  }
   .steps {
     flex-direction: column;
   }
