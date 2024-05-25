@@ -14,3 +14,10 @@
   font-size: 16 px;
   color: rgba(0, 0, 0, .5);
 }
+
+@media screen and (max-width: 998px) {
+  .container {
+    width: calc(100% - 30px);
+    padding: 20px 15px;
+  }
+}

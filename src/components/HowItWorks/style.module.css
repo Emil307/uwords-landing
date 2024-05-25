@@ -51,3 +51,19 @@
 .divider {
   border-left: 1px solid rgba(116, 116, 128, 0.08);
 }
+
+@media screen and (max-width: 1200px) {
+  .steps {
+    display: flex;
+    gap: 16px;
+  }
+  .step {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .steps {
+    flex-direction: column;
+  }
+}

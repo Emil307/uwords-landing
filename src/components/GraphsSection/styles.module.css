@@ -26,3 +26,25 @@
 .img {
   width: 400px;
 }
+
+@media screen and (max-width: 998px) {
+  .container {
+    max-width: 345px;
+    padding: 0 15px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    gap: 24px; 
+    margin: 0 auto;
+  }
+
+  .graph {
+    width: calc(100% - 32px);
+    padding: 16px;
+  }
+
+  .img {
+    width: calc(100% - 32px);
+  }
+}
