@@ -55,6 +55,12 @@ import { SEO } from "astro-seo";
 		border: none;
 		cursor: pointer;
 	}
+	h1 {
+		text-align: center;
+		font-family: Manrope;
+		font-weight: 700;
+		font-size: 48px;
+	}
 	h2 {
 		font-family: 'Manrope';
 		font-weight: 700;
@@ -101,11 +107,23 @@ import { SEO } from "astro-seo";
 	}
 
 	@media screen and (max-width: 998px) {
+		h1 {
+			font-family: 'Manrope';
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 1.2;
+		}
 		h2 {
 			font-family: 'Manrope';
 			font-weight: 700;
 			font-size: 28px;
 			line-height: 1.2;
+		}
+		h3 {
+			font-family: 'Manrope';
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 28px;
 		}
 	}
 </style>

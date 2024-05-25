@@ -18,3 +18,10 @@
   align-items: center;
   gap: 16px;
 }
+
+@media screen and (max-width: 998px) {
+  .container {
+    max-width: 345px;
+    padding: 0 15px;
+  }
+}

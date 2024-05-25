@@ -31,3 +31,21 @@
   right: -30px;
   width: 400px;
 }
+
+@media screen and (max-width: 998px) {
+  .container {
+    padding: 0;
+    padding: 30px;
+    max-width: 315px;
+    height: 570px;
+  }
+  .info {
+    width: 335px;
+  }
+  .image {
+    position: absolute;
+    bottom: -180px;
+    right: 0;
+    width: 325px;
+  }
+}

@@ -18,15 +18,14 @@
   margin: 0 auto;
 }
 
-.title {
-  text-align: center;
-  font-family: Manrope;
-  font-weight: 700;
-  font-size: 48px;
-}
-
 span {
   background-image: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 998px) {
+  .container {
+    max-width: 345px;
+  }
 }

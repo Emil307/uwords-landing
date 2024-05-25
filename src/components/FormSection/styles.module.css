@@ -34,3 +34,18 @@
     height: 52px;
     padding: 0 32px;
 }
+
+@media screen and (max-width: 998px) {
+    .container {
+      max-width: 335px;
+      padding: 20px;
+      gap: 24px;
+    }
+    .form {
+        flex-direction: column;
+        padding: 0 15px;
+        height: fit-content;
+        gap: 8px;
+    }
+}
+  

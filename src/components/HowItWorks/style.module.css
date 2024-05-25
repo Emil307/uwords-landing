@@ -61,3 +61,9 @@
     width: 300px;
   }
 }
+
+@media screen and (max-width: 998px) {
+  .steps {
+    flex-direction: column;
+  }
+}
