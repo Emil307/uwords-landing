@@ -9,11 +9,11 @@ export const GraphsSection: React.FC = () => {
       <h2>Increase your learning efficiency with vocabulary-based learning system</h2>
       <div className={styles.wrapper}>
         <div className={styles.graph}>
-          <h4>3x more words are remembered</h4>
+          <h3>3x more words are remembered</h3>
           <img className={styles.img} src={brainGraph.src} alt="English word forgetting chart" />
         </div>
         <div className={styles.graph}>
-          <h4>2x faster break down the language barrier</h4>
+          <h3>2x faster break down the language barrier</h3>
           <img className={styles.img} src={barrierGraph.src} alt="English barrier breaking chart" />
         </div>
       </div>
