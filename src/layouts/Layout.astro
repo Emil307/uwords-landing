@@ -6,8 +6,15 @@ import { SEO } from "astro-seo";
 <html lang="en">
 	<head>
 		<SEO
-			title="Uwords learn without many words"
+			title="Uwords learn English without many words"
 			description="Uwords - application for learning English based on your vocabulary"
+			openGraph={{
+        basic: {
+          title: "Uwords - application for learning English based on your vocabulary",
+          type: "A type.",
+          image: "/uwords.svg",
+        }
+      }}
 			extend={{
 				link: [{ rel: "icon", href: "/uwords.svg" }],
 			}}
