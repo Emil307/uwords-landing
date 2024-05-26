@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
-import brainGraph from '../../assets/images/brain-graph.jpg';
-import barrierGraph from '../../assets/images/barrier-graph.jpg';
+import brainGraph from '../../assets/images/brain-graph.webp';
+import barrierGraph from '../../assets/images/barrier-graph.webp';
 
 export const GraphsSection: React.FC = () => {
   return (
